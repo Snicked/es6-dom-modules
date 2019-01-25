@@ -1,0 +1,16 @@
+{
+  "name": "es6-dom-modules",
+  "version": "0.1",
+  "description": "loads es6 modules asynchonously and binds them to dom elements",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Snicked/es6-dom-modules"
+  },
+  "scripts": {
+    "bundle": "npm run bundle:es6",
+    "bundle:es6": "rollup -c .rollup.es6.js",
+    "eslint": "eslint importModule.js"
+  },
+  "author": "https://github.com/Snicked",
+  "license": "MIT"
+}
